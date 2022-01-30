@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+    <body>
+        <div class="container-fluid text-center">
+            <div class="page-header">
+                <h1>
+                    Francine Karpeh
+                </h1>
+            </div>
+            <h2 class="text-info">
+                Teacher, Junior Engineer, and Future UX Designer
+            </h2>
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="html/index.html">FK</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="html/index.html">Home</a></li>
+                <li><a href="html/portfolio.html">Portfolio</a></li>
+                <li><a href="html/socials.html">Socials</a></li>
+              </ul>
+            </div>
+        </nav>
+        <h1>About Me</h1>
+        <img src="file:///Users/francinekarpeh/Downloads/francine_profile.jpg" alt="Profile Picture" width="90" height="90">
+        <p>
+            I have worked on a multitude of web and print based projects for  (Photoshop, Illustrator, InDesign) 
+            and Development (PHP, HTML, CSS, LESS, JS, jQuery, WordPress, WooCommerce, Bootstrap, Responsive Layouts), 
+            eCommerce Solutions, Corporate Branding and Graphic Design. During my Multimedia degree I studied Information Architecture, 
+            and therefore have a keen understanding of wireframes, sitemaps and user experience design which I put to good use on every project I work on.
+        </p>
+        <section class="mb-4">
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">Let's Stay in Touch!</p>
+            <div class="row">
+        
+                <!--Grid column-->
+                
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+        
+                        <!--Grid row-->
+                        <div class="row">
+        
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+        
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+        
+                        </div>
+                        <!--Grid row-->
+        
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+        
+                        <!--Grid row-->
+                        <div class="row">
+        
+                            <!--Grid column-->
+                            <div class="col-md-12">
+        
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+        
+                            </div>
+                        </div>
+                        <!--Grid row-->
+        
+                    </form>
+        
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <!--Grid column-->
+            </div>
+        </section>
+    </body>
+</html>
